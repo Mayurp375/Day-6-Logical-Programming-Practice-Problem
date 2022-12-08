@@ -7,7 +7,7 @@ public class PerfectNumber {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
         int sum = 0;
-        for (int i = 1; i < 28; i++) {
+        for (int i = 1; i < num; i++) {
             if (num % i == 0) {
                 sum = sum + i;
                 System.out.println(i);
